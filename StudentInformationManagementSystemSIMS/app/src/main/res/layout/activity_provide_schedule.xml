@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/padding_large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/provide_schedule" android:textSize="@dimen/text_large" android:textStyle="bold"/>
+        <Spinner android:id="@+id/spSchedDept" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Spinner android:id="@+id/spSchedYear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Spinner android:id="@+id/spSchedDay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Spinner android:id="@+id/spSchedCourse" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Spinner android:id="@+id/spSchedTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Spinner android:id="@+id/spSchedRoom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small"/>
+        <Button android:id="@+id/btnSubmitSchedule" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_schedule" android:layout_marginTop="@dimen/margin_small"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/padding_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/universityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_university_name"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/text_xxxlarge"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_xlarge" />
+
+        <TextView
+            android:id="@+id/heroSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textColor="@color/text_light"
+            android:textSize="@dimen/text_medium"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_small"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/card_radius"
+            app:cardElevation="@dimen/card_elevation"
+            android:layout_marginTop="@dimen/margin_large"
+            app:cardBackgroundColor="@color/background_white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_large">
+
+                <Button
+                    android:id="@+id/btnExplore"
+                    style="@style/PrimaryButton"
+                    android:text="@string/explore_services" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/margin_large">
+
+                    <Button
+                        android:id="@+id/btnSignup"
+                        style="@style/SecondaryButton"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="@string/sign_up" />
+
+                    <Button
+                        android:id="@+id/btnLogin"
+                        style="@style/SecondaryButton"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:text="@string/login" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text"
+            android:textColor="@color/text_light"
+            android:layout_marginTop="@dimen/margin_large" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

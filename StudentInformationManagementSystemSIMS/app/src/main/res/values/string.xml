@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Information Management System</string>
+    <string name="app_university_name">Unity University</string>
+    <string name="app_slogan">Your Campus, Seamlessly Connected</string>
+
+    <string name="welcome_message">Access academic services anytime — fast, simple, and secure.</string>
+    <string name="explore_services">Explore Services →</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="class_schedule">Class Schedule</string>
+    <string name="results_grades">Results / Grades</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+
+    <string name="secure_login">Secure Login</string>
+    <string name="username_label">Username</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button">Login</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="help_text">Need help? Contact support@unity.edu</string>
+
+    <string name="registration_title">Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_name_hint">Enter your full name</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_id_hint">Enter your student ID</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter your email address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_hint">Enter your phone number</string>
+    <string name="department">Department</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="dob_hint">Date of Birth (dd/mm/yyyy)</string>
+    <string name="address">Address</string>
+    <string name="address_hint">Enter your address</string>
+    <string name="register_button">Register</string>
+
+    <string name="class_schedule_title">Class Schedule</string>
+    <string name="select_day">Select Day</string>
+
+    <string name="courses_title">Courses for Computer Science 4th Year</string>
+    <string name="select_course">Select a Course:</string>
+    <string name="add_button">Add</string>
+    <string name="added_courses">Added Courses:</string>
+    <string name="drop_button">Drop</string>
+
+    <string-array name="courses_array">
+        <item>Mobile Application Development</item>
+        <item>Database Systems</item>
+        <item>Software Engineering</item>
+        <item>Computer Networks</item>
+        <item>Operating Systems</item>
+        <item>Data Structures</item>
+        <item>Web Development</item>
+    </string-array>
+
+    <string-array name="departments_array">
+        <item>Computer Science</item>
+        <item>Information Technology</item>
+        <item>Software Engineering</item>
+        <item>Business Management</item>
+        <item>Accounting</item>
+        <item>Nursing</item>
+        <item>Public Health</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="user_icon_description">User icon</string>
+    <string name="lock_icon_description">Lock icon</string>
+    <string name="person_icon_description">Person icon</string>
+    <string name="calendar_icon_description">Calendar icon</string>
+
+    <string name="registration_successful">Registration Successful</string>
+    <string name="all_fields_required">All fields are required</string>
+    <string name="course_added">Course added successfully</string>
+    <string name="course_dropped">Course dropped successfully</string>
+
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="login_failed">Invalid username or password</string>
+    <string name="message_sent">Message sent successfully</string>
+    <string name="provide_grade">Provide Grade</string>
+    <string name="provide_schedule">Provide Additional Schedule</string>
+    <string name="message_advisor">Message Advisor</string>
+    <string name="send_button">Send</string>
+    <string name="submit">Submit</string>
+    <string name="add_schedule">Add Schedule</string>
+    <string name="view_messages">View Messages</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/padding_large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <Spinner android:id="@+id/spAdvisor" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/edittext_background"/>
+
+        <EditText android:id="@+id/etSubject" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Subject" android:layout_marginTop="@dimen/margin_small" android:background="@drawable/edittext_background" android:padding="@dimen/padding_medium"/>
+
+        <EditText android:id="@+id/etContent" android:layout_width="match_parent" android:layout_height="200dp" android:hint="Message" android:gravity="top" android:layout_marginTop="@dimen/margin_small" android:background="@drawable/edittext_background" android:padding="@dimen/padding_medium"/>
+
+        <Button android:id="@+id/btnSend" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/send_button" android:layout_marginTop="@dimen/margin_small" style="@style/PrimaryButton"/>
+    </LinearLayout>
+</ScrollView>
